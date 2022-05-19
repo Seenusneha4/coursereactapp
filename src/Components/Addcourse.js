@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Header from './Header'
 
 const Addcourse = () => {
     var [courseTitle,setcoursetitle]=useState("")
@@ -12,6 +13,7 @@ const Addcourse = () => {
     }
   return (
     <div>
+        <Header/>
 <div className="container">
     <div className="row div col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
         <div className="row g-3">
